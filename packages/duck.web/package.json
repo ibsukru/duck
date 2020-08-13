@@ -1,0 +1,22 @@
+{
+  "name": "duck.web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ibsukru",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "next -- -p 2408",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "duck.lib": "1.0.0",
+    "next": "^9.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.45"
+  }
+}
